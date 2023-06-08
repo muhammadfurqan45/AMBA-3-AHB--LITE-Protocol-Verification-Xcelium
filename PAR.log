@@ -1,0 +1,233 @@
+xrun(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s001: Started on Dec 19, 2022 at 16:33:40 PKT
+xrun
+	top.sv
+	+access+r
+	-64bit
+	-l PAR.log
+Recompiling... reason: file './interface.sv' is newer than expected.
+	expected: Mon Dec 19 14:51:35 2022
+	actual:   Mon Dec 19 16:33:35 2022
+file: top.sv
+	interface worklib.ifa:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .....
+	hwdata=data[543:512]; 								// Get the data from the slave(RAM)
+	          |
+xmelab: *W,BNDWRN (./interface.sv,624|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[573:544];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,628|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[607:574];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,632|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[639:608];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,636|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[671:640];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,640|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[703:672];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,644|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[735:704];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,648|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[767:736];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,651|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[799:768];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,655|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[831:800];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,659|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[863:832];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,663|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[895:864];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,667|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[927:896];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,670|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[959:928];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,674|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[991:960];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,678|11): Bit-select or part-select index out of declared bounds.
+	hwdata=data[1023:992];
+	          |
+xmelab: *W,BNDWRN (./interface.sv,682|11): Bit-select or part-select index out of declared bounds.
+	data[543:512] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,748|4): Bit-select or part-select index out of declared bounds.
+	data[573:544] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,751|4): Bit-select or part-select index out of declared bounds.
+	data[607:574] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,754|4): Bit-select or part-select index out of declared bounds.
+	data[639:608] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,757|4): Bit-select or part-select index out of declared bounds.
+	data[671:640] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,760|4): Bit-select or part-select index out of declared bounds.
+	data[703:672] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,763|4): Bit-select or part-select index out of declared bounds.
+	data[735:704] = hrdata; 	
+	   |
+xmelab: *W,BNDWRN (./interface.sv,766|4): Bit-select or part-select index out of declared bounds.
+	data[767:736] = hrdata;
+	   |
+xmelab: *W,BNDWRN (./interface.sv,769|4): Bit-select or part-select index out of declared bounds.
+	data[799:768] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,772|4): Bit-select or part-select index out of declared bounds.
+	data[831:800] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,775|4): Bit-select or part-select index out of declared bounds.
+	data[863:832] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,778|4): Bit-select or part-select index out of declared bounds.
+	data[895:864] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,781|4): Bit-select or part-select index out of declared bounds.
+	data[927:896] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,784|4): Bit-select or part-select index out of declared bounds.
+	data[959:928] = hrdata; 								// Get the data from the slave(RAM)
+	   |
+xmelab: *W,BNDWRN (./interface.sv,787|4): Bit-select or part-select index out of declared bounds.
+	data[991:960] = hrdata; 
+	   |
+xmelab: *W,BNDWRN (./interface.sv,790|4): Bit-select or part-select index out of declared bounds.
+	data[1023:992] = hrdata; 
+	   |
+xmelab: *W,BNDWRN (./interface.sv,793|4): Bit-select or part-select index out of declared bounds.
+............... Done
+	Generating native compiled code:
+		worklib.ahb_test:sv <0x33f4635a>
+			streams:   4, words: 13928
+		worklib.top:sv <0x1b90116e>
+			streams:   2, words:  1385
+		worklib.amba_ahb_slave:sv <0x001905f3>
+			streams:  24, words: 11439
+		worklib.ifa:sv <0x1b4c9e5e>
+			streams:  37, words: 205096
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 3       3
+		Interfaces:              1       1
+		Registers:             130     130
+		Scalar wires:            8       -
+		Expanded wires:         32       4
+		Vectored wires:          5       -
+		Always blocks:           7       4
+		Initial blocks:          5       5
+		Clocking blocks:         1       1
+		Clocking items:         11      11
+		Cont. assignments:      13      11
+		Simulation timescale:  1ns
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /mnt/cadence_tools/XCL/tools/xcelium/files/xmsimrc
+xcelium> run
+Checking 32bit data read and write when hsel is 0
+Address:00000000 	 DataWritten:00000000 	 Data Read:xxxxxxxx ----- FAIL
+Address:00000004 	 DataWritten:00000004 	 Data Read:xxxxxxxx ----- FAIL
+Address:00000008 	 DataWritten:00000008 	 Data Read:xxxxxxxx ----- FAIL
+Address:0000000c 	 DataWritten:0000000c 	 Data Read:xxxxxxxx ----- FAIL
+Address:00000010 	 DataWritten:00000010 	 Data Read:xxxxxxxx ----- FAIL
+Address:00000014 	 DataWritten:00000014 	 Data Read:xxxxxxxx ----- FAIL
+Address:00000018 	 DataWritten:00000018 	 Data Read:xxxxxxxx ----- FAIL
+Address:0000001c 	 DataWritten:0000001c 	 Data Read:xxxxxxxx ----- FAIL
+Checking 8bit data read and write
+Address:00000000 	 DataWritten:00 	 Data Read:00 ----- PASS
+Address:00000001 	 DataWritten:01 	 Data Read:01 ----- PASS
+Address:00000002 	 DataWritten:02 	 Data Read:02 ----- PASS
+Address:00000003 	 DataWritten:03 	 Data Read:03 ----- PASS
+Address:00000004 	 DataWritten:04 	 Data Read:04 ----- PASS
+Address:00000005 	 DataWritten:05 	 Data Read:05 ----- PASS
+Address:00000006 	 DataWritten:06 	 Data Read:06 ----- PASS
+Address:00000007 	 DataWritten:07 	 Data Read:07 ----- PASS
+Address:00000008 	 DataWritten:08 	 Data Read:08 ----- PASS
+Address:00000009 	 DataWritten:09 	 Data Read:09 ----- PASS
+Address:0000000a 	 DataWritten:0a 	 Data Read:0a ----- PASS
+Address:0000000b 	 DataWritten:0b 	 Data Read:0b ----- PASS
+Address:0000000c 	 DataWritten:0c 	 Data Read:0c ----- PASS
+Address:0000000d 	 DataWritten:0d 	 Data Read:0d ----- PASS
+Address:0000000e 	 DataWritten:0e 	 Data Read:0e ----- PASS
+Address:0000000f 	 DataWritten:0f 	 Data Read:0f ----- PASS
+Address:00000010 	 DataWritten:10 	 Data Read:10 ----- PASS
+Address:00000011 	 DataWritten:11 	 Data Read:11 ----- PASS
+Address:00000012 	 DataWritten:12 	 Data Read:12 ----- PASS
+Address:00000013 	 DataWritten:13 	 Data Read:13 ----- PASS
+Address:00000014 	 DataWritten:14 	 Data Read:14 ----- PASS
+Address:00000015 	 DataWritten:15 	 Data Read:15 ----- PASS
+Address:00000016 	 DataWritten:16 	 Data Read:16 ----- PASS
+Address:00000017 	 DataWritten:17 	 Data Read:17 ----- PASS
+Address:00000018 	 DataWritten:18 	 Data Read:18 ----- PASS
+Address:00000019 	 DataWritten:19 	 Data Read:19 ----- PASS
+Address:0000001a 	 DataWritten:1a 	 Data Read:1a ----- PASS
+Address:0000001b 	 DataWritten:1b 	 Data Read:1b ----- PASS
+Address:0000001c 	 DataWritten:1c 	 Data Read:1c ----- PASS
+Address:0000001d 	 DataWritten:1d 	 Data Read:1d ----- PASS
+Address:0000001e 	 DataWritten:1e 	 Data Read:1e ----- PASS
+Address:0000001f 	 DataWritten:1f 	 Data Read:1f ----- PASS
+Checking 16bit data read and write
+Address:00000000 	 DataWritten:0000 	 Data Read:0000 ----- PASS
+Address:00000002 	 DataWritten:0002 	 Data Read:0002 ----- PASS
+Address:00000004 	 DataWritten:0004 	 Data Read:0004 ----- PASS
+Address:00000006 	 DataWritten:0006 	 Data Read:0006 ----- PASS
+Address:00000008 	 DataWritten:0008 	 Data Read:0008 ----- PASS
+Address:0000000a 	 DataWritten:000a 	 Data Read:000a ----- PASS
+Address:0000000c 	 DataWritten:000c 	 Data Read:000c ----- PASS
+Address:0000000e 	 DataWritten:000e 	 Data Read:000e ----- PASS
+Address:00000010 	 DataWritten:0010 	 Data Read:0010 ----- PASS
+Address:00000012 	 DataWritten:0012 	 Data Read:0012 ----- PASS
+Address:00000014 	 DataWritten:0014 	 Data Read:0014 ----- PASS
+Address:00000016 	 DataWritten:0016 	 Data Read:0016 ----- PASS
+Address:00000018 	 DataWritten:0018 	 Data Read:0018 ----- PASS
+Address:0000001a 	 DataWritten:001a 	 Data Read:001a ----- PASS
+Address:0000001c 	 DataWritten:001c 	 Data Read:001c ----- PASS
+Address:0000001e 	 DataWritten:001e 	 Data Read:001e ----- PASS
+Checking 32bit data read and write
+Address:00000000 	 DataWritten:00000000 	 Data Read:00000000 ----- PASS
+Address:00000004 	 DataWritten:00000004 	 Data Read:00000004 ----- PASS
+Address:00000008 	 DataWritten:00000008 	 Data Read:00000008 ----- PASS
+Address:0000000c 	 DataWritten:0000000c 	 Data Read:0000000c ----- PASS
+Address:00000010 	 DataWritten:00000010 	 Data Read:00000010 ----- PASS
+Address:00000014 	 DataWritten:00000014 	 Data Read:00000014 ----- PASS
+Address:00000018 	 DataWritten:00000018 	 Data Read:00000018 ----- PASS
+Address:0000001c 	 DataWritten:0000001c 	 Data Read:0000001c ----- PASS
+Checking 64bit data read and write
+Address:00000000 	 DataWritten:0000000000000000 	 Data Read:0000000000000000 ----- PASS
+Address:00000008 	 DataWritten:0000000000000008 	 Data Read:0000000000000008 ----- PASS
+Address:00000010 	 DataWritten:0000000000000010 	 Data Read:0000000000000010 ----- PASS
+Address:00000018 	 DataWritten:0000000000000018 	 Data Read:0000000000000018 ----- PASS
+Checking 128bit data read and write
+Address:00000000 	 DataWritten:00000000000000000000000000000000 	 Data Read:00000000000000000000000000000000 ----- PASS
+Address:00000010 	 DataWritten:00000000000000000000000000000010 	 Data Read:00000000000000000000000000000010 ----- PASS
+Checking 256bit data read and write
+Address:00000000 	 DataWritten:0000000000000000000000000000000000000000001234567891234567834567 	 Data Read:0000000000000000000000000000000000000000001234567891234567834567 ----- PASS
+Checking 512bit data read and write
+Address:00000000 	 DataWritten:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001234567891234567834567 	 Data Read:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001234567891234567834567 ----- PASS
+Checking 1024bit data read and write
+Address:00000000 	 DataWritten:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001234567891234567834567 	 Data Read:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001234567891234567834567 ----- PASS
+MEMORY TEST TIMEOUT
+Simulation complete via $finish(1) at time 5 US + 0
+./ahb_test.sv:39      $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.09-s001: Exiting on Dec 19, 2022 at 16:33:41 PKT  (total: 00:00:01)

@@ -1,0 +1,8 @@
+define XMSIMRC	( /mnt/cadence_tools/XCL/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
+define AMSRC	( /mnt/cadence_tools/XCL/tools/xcelium/files/amsrc, ~/.amsrc )
+include ./hdlrun.var
+define SNAPSHOT worklib.top:sv
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP ( + => worklib )
+define ELAB_SNAPSHOT
+define SNAPSHOT worklib.top:sv

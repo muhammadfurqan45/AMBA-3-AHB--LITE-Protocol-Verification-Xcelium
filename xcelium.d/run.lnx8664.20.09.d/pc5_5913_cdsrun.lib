@@ -1,0 +1,2 @@
+SOFTINCLUDE /mnt/cadence_tools/XCL/tools/inca/files/cds.lib
+define worklib ../worklib
